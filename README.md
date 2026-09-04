@@ -31,6 +31,8 @@ LLM with Native Tool Binding (`bind_tools`)
     ▼
 Context Synthesis & Grounded Response
 ```
+**Live Demo :** [Enterpriseops Copilot - Agentic AI and RAG Based Chatbot](https://enterpriseops-copilot.streamlit.app/)
+
 
 ## 📦 Tech Stack
 - Framework: LangChain (langchain-core, langchain-google-genai)
