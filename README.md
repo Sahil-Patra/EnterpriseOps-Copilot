@@ -30,3 +30,37 @@ LLM with Native Tool Binding (`bind_tools`)
     │
     ▼
 Context Synthesis & Grounded Response
+```
+
+## 📦 Tech Stack
+- Framework: LangChain (langchain-core, langchain-google-genai)
+- LLM & Embeddings: Google Gemini 1.5 Flash & text-embedding-004
+- User Interface: Streamlit
+- Document Processing: PyPDFLoader
+- Vector Store: In-Memory Vector Store
+##⚡ Quick Start
+1. Clone the Repository
+```
+git clone https://github.com/YOUR_USERNAME/enterprise-ops-copilot.git
+cd enterprise-ops-copilot
+```
+2. Install Dependencies
+```
+pip install -r requirements.txt
+```
+3. Run the Application
+```
+streamlit run app.py
+```
+4. Provide API Key
+Open the app in your browser (http://localhost:8501).
+Enter your free Google Gemini API Key in the sidebar (get one free at Google AI Studio).
+
+## 💡 Example Queries to Test
+
+| Capability | Example Prompt |
+| :--- | :--- |
+| **RAG / Policy Search** | *"What is our policy regarding remote work network security?"* |
+| **Dynamic Document RAG** | Upload any PDF in sidebar and ask: *"Summarize section 2 of the uploaded document."* |
+| **Talent Sourcing** | *"Find an engineer with Kubernetes and Cloud infrastructure skills."* |
+| **Workflow Automation** | *"Schedule a technical interview with Alex Chen for Thursday at 2 PM."* |
