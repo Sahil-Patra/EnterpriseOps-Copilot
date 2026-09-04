@@ -53,8 +53,8 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 4. Provide API Key
-Open the app in your browser (http://localhost:8501).
-Enter your free Google Gemini API Key in the sidebar (get one free at Google AI Studio).
+- Open the app in your browser (http://localhost:8501).
+- Enter your free Google Gemini API Key in the sidebar (get one free at Google AI Studio).
 
 ## 💡 Example Queries to Test
 
