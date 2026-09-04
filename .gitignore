@@ -1,0 +1,27 @@
+# Python cache & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+myvenv/
+env/
+.venv/
+ENV/
+
+# Environment variables & API keys
+.env
+*.env
+.streamlit/secrets.toml
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Temporary test files
+*.tmp
+temp/
